@@ -1,0 +1,195 @@
+* {
+    
+
+    box-sizing: border-box;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+    position: relative;
+}
+
+header {
+    display: flex;
+    background: burlywood;
+    width: 80%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1em;
+    border-radius: 5em;
+    position: absolute;
+    top: 0em;
+
+}
+
+a {
+    text-decoration: none;
+    margin: 0.6em;
+}
+
+.companies {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    padding-left: 10em;
+    height: 100vh;
+    background: url(./image/pexels-photo-5060973ceo.webp) center/cover;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background: wheat; */
+    width: 100%;
+    margin-top: 1em;
+    border-top-left-radius: 5em;
+    border-top-right-radius: 5em;
+}
+
+.about {
+    display: flex;
+    gap: 2em;
+     
+}
+
+.icon {
+    width: 1em;
+}
+
+.about-us {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.about-us-p {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid; 
+    border-radius: 10px;
+    padding: 0.7em;
+}
+
+
+.corporate {
+    display: flex;
+    
+    width: 70%;
+    
+   
+}
+
+.image {
+    
+    width: 50%;
+    height: 50%;
+}
+
+.image-2 {
+    
+    width: 100%;
+    height: 60vh;
+}
+
+.business {
+    width: 50%;
+    padding-right: 2em;
+    
+}
+
+.business h4 {
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.regular {
+    width: 100%;
+    background: wheat;
+    display: flex;
+    margin: 4em;
+    position: relative;
+    
+}
+
+.solution {
+    display: flex;
+    /* background: wheat; */
+    width: 100%;
+}
+
+.solution-image {
+    display: flex;
+    background: wheat;
+    width: 80%;
+    height: 100%;
+}
+
+.our {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10em;
+    
+}
+
+.pellentesque {
+    width: 50%;
+    padding-left: 2em;
+    background: whitesmoke;
+}
+
+.learn-more {
+    display: flex;
+    gap: 2em;
+}
+
+.learn-more p {
+    border: 1px solid;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.view {
+    background: black;
+    color: aliceblue;
+}
+
+.call-lee {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25rem;
+    height: 10vh;
+    background: white;
+    border-top-left-radius: 20em;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+
+}
+
+.call-lee img {
+    display: flex;
+    width: 2rem;
+    height: 5vh;
+}
+
+.pellentesque-image {
+    width: 50%;
+    background: whitesmoke;
+}
+
+.image1 {
+    width: 33.2%;
+}
